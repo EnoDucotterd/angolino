@@ -53,13 +53,13 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 body {
   background-color: #f0ece1;
@@ -89,4 +89,23 @@ body {
 
 .main-nav a {
   margin-right: 6px;
+}
+
+.noi,
+.main-nav {
+  font-family: adobe-caslon-pro, serif;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.noi {
+  background-color: #af89647b;
+  padding: 36px 29px 68px 29px;
+}
+
+h2 {
+  font-family: PoeticaStd;
+  font-size: 25px;
+  letter-spacing: 2.19px;
+  margin-bottom: 15px;
 }
