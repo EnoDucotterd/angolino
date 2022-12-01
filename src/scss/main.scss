@@ -61,8 +61,14 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
+body {
+  background-color: #f0ece1;
+}
+
 .layout {
   background-image: url("/src/img/room.png");
+  background-size: cover;
+  background-position: center;
   height: 473px;
   display: flex;
   flex-direction: column;
@@ -72,4 +78,15 @@ video {
 .layout img {
   width: 150px;
   margin-left: 12%;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 55px 0px;
+}
+
+.main-nav a {
+  margin-right: 6px;
 }
