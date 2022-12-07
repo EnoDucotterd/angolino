@@ -110,3 +110,20 @@ h2 {
   letter-spacing: 2.19px;
   margin-bottom: 15px;
 }
+
+.menu-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fleche {
+  width: 45px;
+  height: 65px;
+}
+
+.food {
+  width: 200px;
+  margin: 0px 20px;
+}
