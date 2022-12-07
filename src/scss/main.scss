@@ -104,6 +104,29 @@ body {
   line-height: 15px;
 }
 
+@media (min-width: 375px) {
+  .noi,
+  .menu,
+  .event-content,
+  .contact,
+  .where,
+  .main-nav {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .noi,
+  .menu,
+  .event-content,
+  .contact,
+  .where,
+  .main-nav {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
 .noi,
 .menu {
   background-color: #af89647b;
@@ -116,6 +139,18 @@ h2 {
   font-size: 25px;
   letter-spacing: 2.19px;
   margin-bottom: 15px;
+}
+
+@media (min-width: 375px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 30px;
+  }
 }
 
 .menu-img {
