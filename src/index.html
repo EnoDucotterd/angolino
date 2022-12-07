@@ -38,7 +38,7 @@
             </nav>
           </div>
         </div>
-        <div class="row">
+        <div class="row g-0">
           <div class="col-12 col-lg-8 order-lg-2">
             <img
               class="deventure"
@@ -60,15 +60,22 @@
         </div>
         <div class="row">
           <div class="col-12 col-lg">
-            <div class="menu-img">
-              <img class="fleche" src="img/fleche@2x.png" alt="flèche-gauche" />
-              <img class="food" src="img/cacke.png" alt="cake à la carrotte" />
-              <img
-                class="fleche"
-                src="img/fleche-droite@2x.png"
-                alt="flèche droite"
-              />
-            </div>
+            <section class="slider mobile">
+              <button class="slide-arrow" id="slide-arrow-prev">
+                <img src="img/fleche@2x.png" alt="flèche-gauche" />
+              </button>
+
+              <button class="slide-arrow" id="slide-arrow-next">
+                <img src="img/fleche-droite@2x.png" alt="flèche-droite" />
+              </button>
+
+              <ul class="slides-container" id="slides-container">
+                <li class="slide"><img src="img/cacke.png" alt="" /></li>
+                <li class="slide"><img src="img/cornetto.png" alt="" /></li>
+                <li class="slide"><img src="img/espresso.png" alt="" /></li>
+                <li class="slide"><img src="img/cantuccis.png" alt="" /></li>
+              </ul>
+            </section>
           </div>
         </div>
         <div class="row">
