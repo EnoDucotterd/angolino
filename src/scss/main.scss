@@ -49,17 +49,17 @@ video {
 
 @import "bootstrap/scss/bootstrap-grid";
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 body {
   background-color: #f0ece1;
@@ -93,6 +93,9 @@ body {
 
 .noi,
 .menu,
+.event-content,
+.contact,
+.where,
 .main-nav {
   font-family: adobe-caslon-pro, serif;
   font-size: 15px;
@@ -128,4 +131,24 @@ h2 {
 .food {
   width: 200px;
   margin: 0px 20px;
+}
+
+.event {
+  background-image: url("/src/img/library.png");
+  background-size: cover;
+  padding: 87px 0px 58px;
+}
+
+.event-content {
+  opacity: 0.72;
+  background: #eee2ce;
+  background-position: center;
+  padding: 14px 28px;
+  margin-right: 14px;
+}
+
+.where {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
