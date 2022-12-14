@@ -65,16 +65,27 @@ body {
   background-color: #f0ece1;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 .layout {
   background-image: url("/src/img/room.png");
   background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
   background-repeat: no-repeat;
-  height: 473px;
+  min-height: 473px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+main {
+  background-color: #f0ece1;
+  margin-top: 473px;
 }
 
 .layout img {
@@ -153,6 +164,11 @@ h2 {
   }
 }
 
+.menu {
+  display: flex;
+  height: fit-content;
+}
+
 .menu-img {
   display: flex;
   flex-direction: row;
@@ -182,7 +198,7 @@ h2 {
   background-position: center;
   background-size: cover;
   padding: 87px 0px 58px;
-  margin: 235px 0px 50px;
+  margin: 125px 0px 50px;
 }
 
 .event-content {
@@ -221,8 +237,12 @@ h2 {
   overflow: hidden;
 }
 
+.slider.mobile {
+  margin-top: 125px;
+}
+
 .slides-container {
-  height: 332px;
+  height: 200px;
   width: 100%;
   display: flex;
   list-style: none;
@@ -245,13 +265,14 @@ h2 {
 .slide-mobile img,
 .slide-desktop img {
   width: 200px;
+  padding: auto;
 }
 
 .slide-arrow {
   position: absolute;
   display: flex;
   top: 0;
-  bottom: 0;
+  bottom: 5%;
   margin: auto;
   height: 4rem;
   border: none;
@@ -277,6 +298,14 @@ h2 {
   right: 0;
   padding-left: 0.75rem;
   border-radius: 2rem 0 0 2rem;
+}
+
+.prev.desktop {
+  left: 90px;
+}
+
+.next.desktop {
+  right: 100px;
 }
 
 .slides-container {
