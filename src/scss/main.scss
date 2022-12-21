@@ -23,6 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 
   font-size: 1rem;
   line-height: 1.25;
@@ -93,6 +94,24 @@ header {
   animation: infinite;
 }
 
+.deco::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #baa999;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.deco:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 @keyframes zoominto {
   0% {
     transform: scale(1);
@@ -126,6 +145,7 @@ main {
 
 .main-nav a {
   margin-right: 6px;
+  text-decoration: none;
 }
 
 .noi,
@@ -251,6 +271,10 @@ h2 {
   flex-direction: column;
   align-items: flex-end;
   margin: 50px 75px;
+}
+
+footer {
+  background-color: #f0ece1;
 }
 
 // ____
