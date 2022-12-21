@@ -94,6 +94,10 @@ header {
   animation: infinite;
 }
 
+.deco {
+  position: relative;
+}
+
 .deco::after {
   content: "";
   width: 100%;
