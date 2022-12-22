@@ -77,7 +77,7 @@ header {
 .header-background {
   position: absolute;
   inset: 0;
-  background-image: url("/src/img/room.png");
+  background-image: url("../img/room.png");
   background-size: cover;
   background-repeat: no-repeat;
   animation: zoominto 15s linear infinite;
@@ -242,7 +242,7 @@ h2 {
 }
 
 .event {
-  background-image: url("/src/img/library.png");
+  background-image: url("../img/library.png");
   background-position: center;
   background-size: cover;
   padding: 87px 0px 58px;
